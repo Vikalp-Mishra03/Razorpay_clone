@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+#shape {
+    height: 800px;
+    /* width: 100%; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* -webkit-clip-path: polygon(100% 0, 0 0, 71% 21%);
+    clip-path: polygon(100% 0, 0 0, 71% 21%); */
+    /* -webkit-clip-path: polygon(100% 0, 0 0, 87% 14%);
+clip-path: polygon(100% 0, 0 0, 87% 14%); */
+-webkit-clip-path: polygon(100% 0, 0 0, 90% 12%);
+clip-path: polygon(100% 0, 0 0, 91% 10%);
+}
