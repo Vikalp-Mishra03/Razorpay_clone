@@ -16,7 +16,8 @@ module.exports = {
       grayBlue: "#344a6c",
       deepblueHead: "#162f56",
       gray2: "#525a76",
-      white: "#ffffff"
+      white: "#ffffff",
+      gray3: "hsla(229, 9.6%, 54.9%, 1)"
     }
   },
   plugins: [],
