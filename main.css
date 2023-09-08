@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+    font-family: 'Mulish', sans-serif;
+}
 
 #shape {
     height: 800px;
@@ -13,13 +18,12 @@
     clip-path: polygon(100% 0, 0 0, 91% 10%);
 }
 
-.product-card {
-    border: 1px solid lightgray;
-    width: 22%;
-    height: 300px;
-    clip-path: polygon(65.52% 0%, 100% 28.77%, 100% 70.25%, 0% 70.5%, 0% 0%);
-    background-color: #fff;
-    padding-left: 12px;
-    padding-top: 20px;
-    padding-right: 12px;
+
+
+.tab {
+    background: linear-gradient(180deg, rgba(74, 144, 245, 0.21) -34.7%, rgba(125, 186, 244, 0.063) 100%, rgba(125, 186, 244, 0.1295) 100%);
+}
+
+.explore{
+    clip-path: polygon(100% 81.75%, 77.6% 86.42%, 32.15% 79.79%, 0% 100%, 0% 0%, 100% 10.95%);
 }
