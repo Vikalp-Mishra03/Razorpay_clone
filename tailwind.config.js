@@ -3,8 +3,9 @@ module.exports = {
   content: ["*"],
   theme: {
     extend: {
-      fontFamily: ["Mullish", "sans-serif"],
+      fontfamily: ['Mulish', "sans-serif"]
     },
+
     colors: {
       deepblue: "#02042a",
       lightblue: "#2b84ea",
