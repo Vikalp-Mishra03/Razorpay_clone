@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     font-family: 'Mulish', sans-serif;
 }
 
@@ -24,6 +24,24 @@ body{
     background: linear-gradient(180deg, rgba(74, 144, 245, 0.21) -34.7%, rgba(125, 186, 244, 0.063) 100%, rgba(125, 186, 244, 0.1295) 100%);
 }
 
-.explore{
+.explore {
     clip-path: polygon(100% 81.75%, 77.6% 86.42%, 32.15% 79.79%, 0% 100%, 0% 0%, 100% 10.95%);
+}
+
+.button {
+    clip-path: polygon(0% 24.5%, 57.29% 24.5%, 81.33% 76.5%, 24.04% 76.5%);
+    background-color: #61cea6;
+}
+
+.hover svg{
+    transition: all .2s ease;
+    stroke: #525a76;
+    stroke-opacity: 0.8;
+}
+.hover:hover svg{
+    -webkit-filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.4));
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    stroke-opacity: 0;
 }
