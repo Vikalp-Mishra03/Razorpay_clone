@@ -57,7 +57,7 @@ body {
     transition: all 200ms;
 }
 
-.box:hover{
+.box:hover {
     color: var(--chakra-colors-gray-200);
     background-image: url(/build/browser/static/instant-settlements-hover.a27f0c91.svg);
     -webkit-background-size: cover;
@@ -71,3 +71,10 @@ body {
 
 }
 
+.clip {
+    clip-path: polygon(100% 0%, 100% 79.27%, 89.9% 92.8%, 0% 83.05%, 0% 24.77%);
+    background-color: #afeb47
+}
+.clip-1{
+    
+}
