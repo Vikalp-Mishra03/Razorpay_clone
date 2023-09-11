@@ -70,11 +70,14 @@ body {
     transform: scale(1.05);
 
 }
+ .clip {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-background-position: center;
+    background-position: center;
+    padding-top: var(--chakra-space-48);
+    -webkit-transform: none;
+    background-image: url(images/clip.svg);
+    background-repeat: no-repeat;
+} 
 
-.clip {
-    clip-path: polygon(100% 0%, 100% 79.27%, 89.9% 92.8%, 0% 83.05%, 0% 24.77%);
-    background-color: #afeb47
-}
-.clip-1{
-    
-}
