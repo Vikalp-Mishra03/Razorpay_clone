@@ -76,7 +76,6 @@ body {
     -webkit-background-position: center;
     background-position: center;
     padding-top: var(--chakra-space-48);
-    -webkit-transform: none;
     background-image: url(images/clip.svg);
     background-repeat: no-repeat;
 } 
